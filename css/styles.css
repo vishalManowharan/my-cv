@@ -43,6 +43,7 @@ body{
   margin: 70px auto 30px auto;
   width: 200px;
   height: 200px;
+  border-radius: 50%;
 }
 .middle-container {
   background-color:#EAF6F6;
