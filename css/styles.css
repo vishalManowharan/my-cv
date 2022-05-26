@@ -75,6 +75,7 @@ span {
   position: relative;
   left: 30px;
   bottom: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #tech {
   margin: 0;
@@ -143,8 +144,8 @@ hr {
   margin-bottom: 90px
 }
 #no-wrap {
-  font-size: 17px;
-font-family: 'Roboto Flex', sans-serif;
+  font-size: 25px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .skills {
   font-family: monospace;
