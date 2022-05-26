@@ -172,7 +172,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 #contact-me {
   font-size: 16px;
 }
-@media (max-width: 1260px) {
+@media (max-width: 1080px) {
   .sun {
     visibility: hidden;
   }
