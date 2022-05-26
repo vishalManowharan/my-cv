@@ -75,12 +75,13 @@ span {
   position: relative;
   left: 30px;
   bottom: 15px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: sans-serif;
 }
 #tech {
   margin: 0;
   position: relative;
   left: 20px;
+  top: 8px;
 }
 .sun {
   border-radius: 100%;
@@ -99,6 +100,7 @@ span {
   width: 25%;
   float: left;
   border-radius: 50%;
+  margin-bottom: 20px;
 }
 .chillies {
   width: 25%;
@@ -143,7 +145,7 @@ hr {
   margin-top: 50px;
   margin-bottom: 90px
 }
-#no-wrap {
+.no-wrap {
   font-size: 25px;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -169,4 +171,58 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #contact-me {
   font-size: 16px;
+}
+@media (max-width: 1260px) {
+  .sun {
+    visibility: hidden;
+  }
+  .top-cloud{
+    left: 290px;
+  }
+  .my-profession-info{
+    padding: 5%;
+  }
+  .mountain {
+    width: 500px;
+  }
+  .intro {
+    padding: 0 10% 0 10%;
+  }
+  .computer {
+    float: none;
+    margin-right: 100px;
+    margin-left: 24px;
+    width: 100px;
+  }
+  #stack {
+    margin-top: 10px;
+    text-align:none;
+    position: relative;
+    padding-top: 5px;
+    bottom: 20px;
+    right: 150px;
+    font-size: 20px;
+  }
+  #skilled {
+    font-size: 20px;
+  }
+  .chillies {
+    width: 100px;
+    float: none;
+    padding: 0;
+  }
+  #tech {
+    text-align: left;
+    position: relative;
+    margin-right: 80px;
+  }
+  .skill-row {
+    text-align: left;
+  }
+  .no-wrap {
+    margin-left: 50px;
+    line-height: 1;
+    position: relative;
+    bottom: 50px;
+  }
 }
